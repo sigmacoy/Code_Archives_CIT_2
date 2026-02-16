@@ -18,7 +18,7 @@ fun main(){
     val age: Int = 21;
     
     // 3. Operators ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    val total = 5 +3;
+    val total = 5 + 3;
     val isEqual = 5 == 3;
 }
 
