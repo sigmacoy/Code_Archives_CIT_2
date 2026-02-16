@@ -21,8 +21,6 @@ fun main() = runBlocking {
     Scope - lifecycle of coroutine
     Dispatcher - thread manager
     Job - running coroutine instance
-
-
     */
 
     launch {

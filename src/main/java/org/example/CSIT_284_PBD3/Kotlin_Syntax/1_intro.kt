@@ -15,11 +15,12 @@ fun main(){
     // String, Char
     // Boolean
 
-    val age: Int = 21;
-    
+    val age: Int = 21
+    var firstName: String? = null
+
     // 3. Operators ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    val total = 5 + 3;
-    val isEqual = 5 == 3;
+    val total = 5 + 3
+    val isEqual = 5 == 3
 }
 
 /* 

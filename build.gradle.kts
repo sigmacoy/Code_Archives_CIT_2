@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    kotlin("jvm")
+    kotlin("jvm") version "1.9.0"
 }
 
 group = "org.example"
@@ -24,6 +24,8 @@ tasks.test {
 kotlin {
     compilerOptions {
         languageVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_1_9)
+        apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_1_9)
     }
-    jvmToolchain(24)
+    jvmToolchain(17)
 }
+
