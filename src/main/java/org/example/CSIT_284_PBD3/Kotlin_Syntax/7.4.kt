@@ -4,6 +4,13 @@ class Document {
         set(value) {
             field = value.trim()
         }
+        /*
+        // 2. Custom logic needed (Validation)
+        var age: Int = 19
+            set(value) {
+                if (value >= 0) field = value // Only set if not negative
+            }
+        */
 }
 
 class KotlinPerson (
@@ -43,3 +50,17 @@ fun main() {
 
 
 }
+
+/* Regular class vs Data class
+
+Purpose: Regular = Logic/Behavior | Data = Holding data.
+
+equals(): Regular = Memory address | Data = Property values.
+
+copy(): Regular = ❌ No | Data = ✅ Yes (for easy cloning).
+
+Abstract: Regular = ✅ Yes | Data = ❌ No.
+
+Inheritance: Regular = ✅ Yes (if open) | Data = ❌ No (always final).
+
+ */
