@@ -49,4 +49,4 @@ org.gradle.logging.level=quiet
 ```
 
 ## Traverse folder path
-### org.example.CSIT_284_PBD3.Kotlin_Syntax
+### org.example
