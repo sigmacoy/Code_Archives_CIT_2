@@ -29,3 +29,8 @@ kotlin {
     jvmToolchain(17)
 }
 
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+    compilerOptions {
+        allWarningsAsErrors.set(false)
+    }
+}

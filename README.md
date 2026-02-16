@@ -1,8 +1,7 @@
 # pleasee do use intelliJ for this one
 
-## Make project, Gradle as Build System
-
-### temurin-24
+### Make project, Gradle as Build System
+``` temurin-24 ```
 
 ## My build.gradle.kts (my kotlin version is 1.9.0)
 ```
@@ -36,6 +35,17 @@ kotlin {
     }
     jvmToolchain(17)
 }
+```
+
+## My gradle.properties (clean run terminal)
+```
+# Hides the [Incubating] Problems report
+systemProp.org.gradle.internal.problems.report.enabled=false
+
+# Hides the Deprecation warnings
+org.gradle.warning.mode=none
+
+org.gradle.logging.level=quiet
 ```
 
 ## Traverse folder path
