@@ -49,7 +49,7 @@ fun main(){
     val result = operate(5){
         it * 2
     }
-    println(result)
+    println("RESULT: $result") // 10
 
     // 3. Multiple parameter
     fun calculate(a : Int, b : Int, action : (Int, Int) -> Int) : Int {

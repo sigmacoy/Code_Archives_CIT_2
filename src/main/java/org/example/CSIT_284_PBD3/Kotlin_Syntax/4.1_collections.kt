@@ -28,6 +28,4 @@ fun main(){
             else -> println("$it is of other type")
         }
     }
-
-    println("Current Kotlin Version: ${KotlinVersion.CURRENT}")
 }

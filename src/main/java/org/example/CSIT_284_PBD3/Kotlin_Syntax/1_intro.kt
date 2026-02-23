@@ -21,6 +21,8 @@ fun main(){
     // 3. Operators ~~~~~~~~~~~~~~~~~~~~~~~~~~~
     val total = 5 + 3
     val isEqual = 5 == 3
+
+    println("Current Kotlin Version: ${KotlinVersion.CURRENT}")
 }
 
 /* 
